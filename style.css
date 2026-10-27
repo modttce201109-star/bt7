@@ -1,0 +1,24 @@
+/* --- Mobile View (Mặc định) --- */
+/* Đã có sẵn hoặc tuân theo starter code ban đầu của bài */
+
+
+/* --- Query #1: Tablet View (Từ 772px trở lên) --- */
+@media screen and (min-width: 772px) {
+  div {
+    width: 45%;
+    display: inline-block; /* Hoặc float: left / flex tuỳ cấu trúc starter code để các div xếp ngang thành 2 cột */
+  }
+  
+  img {
+    max-height: 30vh;
+  }
+}
+
+
+/* --- Query #2: Large Screen View (Từ 998px trở lên) --- */
+@media screen and (min-width: 998px) {
+  div {
+    width: 30%;
+    /* Các thuộc tính khác giữ nguyên hoặc tự động điều chỉnh thành 3 cột */
+  }
+}
